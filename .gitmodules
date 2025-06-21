@@ -1,0 +1,4 @@
+[submodule "themes/cactus"]
+	path = themes/cactus
+	url = https://github.com/bhackari/hugo-theme-cactus.git
+	branch = custom-version
