@@ -1,4 +1,4 @@
-baseURL = 'https://bhackari.it/'
+baseURL = 'https://bhackari.github.io/'
 languageCode = 'en-us'
 title = 'bhackari'
 theme = 'cactus'
@@ -49,6 +49,7 @@ weight = 4
 
   description = "This is the web page of the CyberSecurity student group and CTF team of **Università Ca' Foscari Venezia**."
   mainSection = "posts"
+  mainSectionTitle = "Posts"
   mainSections = ['posts']
   showAllPostsOnHomePage = false
   postsOnHomePage = 5
