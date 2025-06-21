@@ -1,0 +1,67 @@
+baseURL = 'https://bhackari.it/'
+languageCode = 'en-us'
+title = 'bhackari'
+theme = 'cactus'
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writings"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Members"
+url = "/members"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[params]
+
+  colortheme = "dark"
+  rss = true
+  googleAnalyticsAsync = true
+  showAllPostsArchive = false
+
+  description = "This is the web page of the CyberSecurity student group and CTF team of **Università Ca' Foscari Venezia**."
+  mainSection = "posts"
+  mainSections = ['posts']
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 5
+
+  dateFormat = "01-02-2006"
+
+  show_updated = true
+  showReadTime = true
+
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/bhackari"
+  
+  [[params.social]]
+    name = "email"
+    link = "bhackari@protonmail.com"
