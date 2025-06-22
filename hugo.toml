@@ -1,4 +1,4 @@
-baseURL = 'https://bhackari/'
+baseURL = 'https://bhackari.it/'
 languageCode = 'en-us'
 title = 'bhackari'
 theme = 'cactus'
