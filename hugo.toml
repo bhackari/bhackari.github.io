@@ -14,14 +14,19 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
+name = "Writeups"
+url = "/writeups"
+weight = 3
+
+[[menu.main]]
 name = "Members"
 url = "/members"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 4
+weight = 5
 
 
 [markup]

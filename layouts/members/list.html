@@ -1,0 +1,23 @@
+{{ define "main"}}
+<div id="archive">
+  <h1>Our team:</h1>
+  <ul>
+
+  {{ $pages := .Paginator.Pages }}
+  {{ if .Site.Params.showAllPostsArchive }}
+    {{ $pages = .Pages }}
+  {{ end }}
+
+  {{ range $pages }}
+    <li>
+      <span>    
+        <a class="" href="{{ .Permalink }}">{{ if .Title }} {{ .Title }} {{ else }} Untitled {{ end }}</a>
+      </span>
+    </li>
+    {{ end }}
+  </ul>
+  {{ if eq .Site.Params.showAllPostsArchive false }}
+    {{ partial "pagination.html" . }}
+  {{ end }}
+</div>
+{{ end }}
