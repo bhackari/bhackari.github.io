@@ -53,9 +53,9 @@ weight = 5
   showAllPostsArchive = false
 
   description = "This is the web page of the CyberSecurity student group and CTF team of **Università Ca' Foscari Venezia**."
-  mainSection = "posts"
-  mainSectionTitle = "Posts"
-  mainSections = ['posts']
+  mainSection = "writeups"
+  mainSectionTitle = "Writeups"
+  mainSections = ['writeups']
   showAllPostsOnHomePage = false
   postsOnHomePage = 5
 
@@ -63,6 +63,8 @@ weight = 5
 
   show_updated = true
   showReadTime = true
+
+  tagsOverview = true
 
   [[params.social]]
     name = "github"

@@ -6,7 +6,7 @@ summary: "Tulip is a traffic analyzer tool made for A/D CTFs, this post walks yo
 
 categories: 
     - docs
-keywords: 
+tags: 
     - attack-defense
     - infra
 author: bhackari

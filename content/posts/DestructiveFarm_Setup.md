@@ -8,7 +8,7 @@ automatically submit them to the checker."
 
 categories: 
     - docs
-keywords: 
+tags: 
     - attack-defense
     - infra
 author: bhackari
