@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 class="posttitle" itemprop="name headline">
+      {{ .Title }}
+    </h1>
+    {{ if gt .Params.tags 0 }}
+    <i class="fas fa-tag"></i>
+    {{ range $index, $value := .Params.tags }}
+    {{ if gt $index 0 }} {{ print ", " }} {{ end }}
+    <a class="tag-link" href="{{ "/tags/" | relLangURL }}{{ $value | urlize }}" rel="tag">{{ $value }}</a>
+    {{ end }}
+    {{ end }}
+  </header>
+  <div class="content" itemprop="articleBody">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

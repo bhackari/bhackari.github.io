@@ -1,9 +1,9 @@
 ---
-title: "Simojoviz"
+title: "leo_something"
 draft: false
 tags:
     - pwn
     - rev
 ---
 
-My name is Simone.
+Hi, I'm leo_something.
